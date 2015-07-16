@@ -1,0 +1,81 @@
+.tariff-container {
+  padding: 20px;
+  border: solid 1px #ddd;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.tariff-container h2 {
+  font-size: 1.5em;
+  background: #e00023;
+  color: #fff;
+  padding: 10px;
+  margin: -21px -21px 1em -21px;
+}
+.tariff-container select {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0;
+  font-family: inherit;
+  box-sizing: border-box;
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+.tariff-container div.results,
+.tariff-container div.grades {
+  display: table;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.tariff-container div.result-row,
+.tariff-container div.grade-row {
+  display: table-row;
+}
+.tariff-container div.result-row span,
+.tariff-container div.grade-row span {
+  display: table-cell;
+  padding: 5px;
+}
+.tariff-container .reset,
+.tariff-container div.grade-row .add a {
+  background: #e00023;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 2px 6px;
+  font-size: 0.9em;
+  width: 50px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+.tariff-container .totals {
+  font-size: 1.1em;
+  font-weight: bold;
+  float: left;
+}
+
+.tariff-container div.result-row:nth-child(even),
+.tariff-container div.grade-row:nth-child(even) {
+  background: #f9f9f9;
+}
+.tariff-container div.header {
+  margin-top: 10px;
+  font-weight: bold;
+  background: #999;
+  color: #fff;
+}
+.tariff-container .logo {
+  width: 80px;
+  height: auto;
+  float: right;
+}
+.tariff-container div.disclaimer {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #888;
+  border-top: solid 1px #ddd;
+  padding-top: 1em;
+  clear: both;
+  float: left;
+  width: 100%;
+}
